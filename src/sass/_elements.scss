@@ -1,0 +1,31 @@
+/* elements */
+
+$baz: #f00;
+
+// Extra small devices (portrait phones, less than 544px). No media query since this is the default in Bootstrap (xs)
+
+#contentBox {
+    width: 100%;
+}
+
+// Small devices (landscape phones, 544px and up) (sm)
+@media (min-width: 544px) {
+    .test-element {
+        color: $baz;
+    }
+}
+
+// Medium devices (tablets, 768px and up) (md)
+@media (min-width: 768px) {
+	
+}
+
+// Large devices (desktops, 992px and up) (lg)
+@media (min-width: 992px) {
+	
+}
+
+// Extra large devices (large desktops, 1200px and up) (xl)
+@media (min-width: 1200px) {
+	
+}

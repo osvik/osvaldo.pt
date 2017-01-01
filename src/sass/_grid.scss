@@ -1,0 +1,43 @@
+/* Grid */
+
+.fullrow {
+	@include make-col-ready();
+	
+	@media (min-width: 544px) { // sm
+		@include make-col(12);
+	}
+	
+	@media (min-width: 768px) { // md
+		@include make-col(12);
+	}
+	
+	@media (min-width: 992px) { //lg
+		@include make-col(12);
+	}
+	
+	@media (min-width: 1200px) { //xl
+		@include make-col(12);
+	}
+}
+
+
+.specialty {
+	
+	@include make-col-ready();
+	
+	@media (min-width: 544px) { // sm
+		@include make-col(12);
+	}
+	
+	@media (min-width: 768px) { // md
+		@include make-col(4);
+	}
+	
+	@media (min-width: 992px) { //lg
+		@include make-col(4);
+	}
+	
+	@media (min-width: 1200px) { //xl
+		@include make-col(4);
+	}
+}

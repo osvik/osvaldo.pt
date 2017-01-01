@@ -1,0 +1,78 @@
+/* typography */
+
+// Extra small devices (portrait phones, less than 544px). No media query since this is the default in Bootstrap (xs)
+
+h1 {
+	font-size: 2.2rem;
+	margin: 0.7rem 0 0 0;
+}
+
+h2 {
+	font-size: 1.8rem;
+	margin: 1rem 0 1rem 0;
+}
+
+h3 {
+	font-size: 1.5rem;
+}
+
+// Small devices (landscape phones, 544px and up) (sm)
+@media (min-width: 544px) {
+	
+	h1 {
+		font-size: 2.6rem;
+	}
+	
+	h2 {
+		font-size: 2.1rem;
+		margin: 1.4rem 0 1.4rem 0;
+	}
+	
+}
+
+// Medium devices (tablets, 768px and up) (md)
+@media (min-width: 768px) {
+	
+	h1 {
+		font-size: 2.2rem;
+	}
+	
+	h2 {
+		font-size: 1.7rem;
+		margin: 1rem 0 1rem 0;
+	}
+	
+	h3 {
+		font-size: 1.3rem;
+	}
+	
+	body {
+		font-size: 0.9rem;
+	}
+}
+
+// Large devices (desktops, 992px and up) (lg)
+@media (min-width: 992px) {
+	
+}
+
+// Extra large devices (large desktops, 1200px and up) (xl)
+@media (min-width: 1200px) {
+	
+	h1 {
+		font-size: 2.6rem;
+		
+	}
+	
+	h2 {
+		font-size: 2.1rem;
+	}
+	
+	h3 {
+		font-size: 1.5rem;
+	}
+	
+	body {
+		font-size: 1rem;
+	}
+}
