@@ -1,0 +1,29 @@
+{
+  "name": "OsvaldoPTWebSite",
+  "version": "0.0.2",
+  "description": "Osvaldo new web site",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "bootstrap": "^4.0.0-alpha.5",
+    "jquery": "^3.1.1",
+    "jquery-validation": "^1.16.0",
+    "tether": "^1.4.0",
+	"picturefill": "^3.0.2"
+  },
+  "devDependencies": {
+	"gulp": "^3.9.1",
+    "gulp-clean-css": "^2.3.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^2.0.0",
+    "axe-core": "^2.1.7",
+    "chai": "^3.5.0",
+    "gulp-sass": "^3.0.0",
+    "mocha": "^3.2.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Osvaldo Gago",
+  "license": "ISC"
+}
